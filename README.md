@@ -1,1 +1,1 @@
-# dev.Finance$ :money_mouth_face:
+# dev.finance$ :money_mouth_face:
