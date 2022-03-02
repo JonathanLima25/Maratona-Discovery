@@ -90,8 +90,20 @@ button:hover {
     margin-bottom: .8rem;
 }
 
+.button.cancel {
+    color: #e92929;
+    border: 2px #e92929 solid;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
 
-
+.button.cancel:hover {
+    opacity: 1;
+}
 
 /* Balance =================== */
 #balance {
@@ -207,6 +219,7 @@ td.expense {
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
+    transition: 500ms;
 }
 
 .modal {
