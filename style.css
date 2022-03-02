@@ -31,6 +31,8 @@ body {
     margin: auto;
 }
 
+
+
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
@@ -49,6 +51,21 @@ header {
 #logo {
     color: #fff;
     font-weight: 100;
+}
+
+/* Links and Buttons =================== */
+a {
+    color: #49aa26;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3dd705;
+}
+
+.button.new {
+    display: inline-block;
+    margin-bottom: .8rem;
 }
 
 /* Balance =================== */
@@ -121,6 +138,11 @@ table tbody tr:hover {
 table thead tr th:first-child, 
 table tbody tr th:first-child{
     border-radius: 0.25rem 0 0 0.25rem;
+}
+
+table thead tr th:last-child, 
+table tbody tr th:last-child{
+    border-radius: 0 0.25rem 0.25rem 0;
 }
 
 td.description {
