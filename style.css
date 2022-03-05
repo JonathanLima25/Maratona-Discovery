@@ -214,6 +214,7 @@ td.expense {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    transition: 500ms;
 }
 
 .modal-overlay.active {
