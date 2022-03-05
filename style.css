@@ -221,6 +221,7 @@ td.expense {
     opacity: 1;
     visibility: visible;
     transition: 500ms;
+    z-index: 1;
 }
 
 .modal {
